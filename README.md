@@ -1,0 +1,2 @@
+# LJ-Project
+Static Website
