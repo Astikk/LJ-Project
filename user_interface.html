@@ -24,7 +24,7 @@
         <input class="search" type="search" name="" id="" placeholder="search for products, brands and more">
     </div>
 
-    <button id="button">Search</button>
+    <button type="submit" id="button">Search</button>
 
     <nav>
         <ul class="ul">
@@ -32,37 +32,80 @@
             <li> <a href=""> Product </a></li>
             <li> <a href=""> About </a></li>
             <li> <a href=""> Contact </a></li>
-            <li> <a href=""> Account </a></li>
+            <li> <a id="account" onclick="showform()"> Account </a></li>
             <li> <a href=""> <img width="40px" src="cart.png" alt=""> </a></li>
 
         </ul>
     </nav>
 
     </div>
-<!-- Header end -->
+<!-- Header end  -->
 
 
 <!-- Header Drop -->
 
     <div class="header_drop">
 
-        <div> <a class="sameimage" href=""> <img style="width: 110px;" onmouseover="setnew1()" onmouseout="setold1()" class="same1" src="offer.png" alt="">  </a></div>
+        
 
-        <div> <a class="sameimage" href=""> <img style="width: 100px;" onmouseover="setnew2()" onmouseout="setold2()" class="same2" src="mobile.png" alt="">  </a></div>
+        <div> <a href=""> <img   class="images" src="offer.png" alt="">  </a></div>
 
-        <div> <a class="sameimage" href=""> <img onmouseover="setnew3()" onmouseout="setold3()" class="same3" src="electronics.png" alt="">  </a></div>
+        <div> <a  href=""> <img   class="images" src="mobile.png" alt="">  </a></div>
 
-        <div> <a class="sameimage" href=""> <img style="width: 120px;" onmouseover="setnew4()" onmouseout="setold4()" class="same4" src="appliance.png" alt="">  </a></div>
+        <div> <a href=""> <img   class="images" src="electronics.png" alt="">  </a></div>
 
-        <div> <a class="sameimage" href=""> <img style="width: 200px;" onmouseover="setnew5()" onmouseout="setold5()" class="same5" src="toys .png" alt="">  </a></div>
+        <div> <a href=""> <img  id="applian" class="images" src="appliance.png" alt="">  </a></div>
 
-        <div> <a class="sameimage" href=""> <img style="width: 120px;" onmouseover="setnew6()" onmouseout="setold6()" class="same6" src="fashion.png" alt="">  </a></div>
+        <div> <a href=""> <img  id="adjust" class="images" src="toys.png" alt="">  </a></div>
 
-
+        <div> <a href=""> <img  id="fashion" class="images" src="fashion.png" alt="">  </a></div>
 
     </div>
+<!--  Header drop end  -->
 
 
+<div class="bg-model">
+
+         <div class="container">
+         <div class="form">
+
+        <div class="close"> <h1> +</h1> </div>
+                
+        <form class="login" action="">
+        <div class="loginform"> Login Form</div>
+        
+        <div class="main">
+                    
+        <div class="mail">
+        <label for=""> Email or Phone </label> <br>
+        <input class="input" type="email"> <br>
+
+        <div style=" height: 25px;"></div>
+
+                
+        <label for="">Password  </label> <br>
+         <input class="input" type="password" name="" id="">  
+        
+                    
+        </div>
+
+                
+        <a class=" forgot" href="">Forgot password</a>  <br>
+        <button class="logbutton" type="submit"> Login</button>
+        
+        <p class="signup"> Not a member?
+        <a class="decoration" href=""> <span style="color: rgb(0, 174, 255);">SignUp Now</span> </a> </p>
+        
+    </div>
+        
+    </form>
+        
+    </div>
+
+    </div> 
+   </div>
+
+   </div>
 
 <script type="text/javascript" src="script.js"> </script>
 </body>
